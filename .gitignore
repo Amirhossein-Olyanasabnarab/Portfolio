@@ -1,0 +1,39 @@
+# Common
+node_modules/
+.env
+.DS_Store
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Backend (Express.js)
+backend/node_modules/
+backend/.env
+
+# Build files
+backend/build/
+backend/dist/
+
+# Temp files
+backend/temp/
+backend/*.tmp
+backend/*.temp
+
+# Frontend (React.js)
+frontend/node_modules/
+frontend/.env
+
+# Build files
+frontend/build/
+
+# Temp files
+frontend/temp/
+frontend/*.tmp
+frontend/*.temp
+
+# Cache
+frontend/.cache/
